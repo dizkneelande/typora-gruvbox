@@ -29,7 +29,7 @@ kbd {
 }
 
 blockquote {
-  border-left: 4px solid var(--color-green);
+  border-left: 4px solid var(--color-yellow);
 }
 
 sup.md-footnote {
