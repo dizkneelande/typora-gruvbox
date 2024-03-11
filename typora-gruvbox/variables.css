@@ -1,0 +1,99 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap'); */
+
+/*@font-face {
+    font-family: 'Mono';
+    font-style: bold;
+    font-weight: normal;
+    src: local("Mono Regular"), url("./fonts/CaskaydiaMonoNerdFontMono-Bold.woff2") format("woff2");
+}*/
+
+/*@font-face {
+    font-family: 'Mono';
+    font-style: italic;
+    font-weight: normal;
+    src: local("Mono It"), url("./fonts/CaskaydiaMonoNerdFontMono-Italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Mono';
+    font-style: bold;
+    font-weight: bold;
+    src: local("Mono Bold"), url("./fonts/CaskaydiaMonoNerdFontMono-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Mono';
+    font-style: italic;
+    font-weight: bold;
+    src: local("Mono Bold Italic"), url("./fonts/CaskaydiaMonoNerdFontMono-BoldItalic.woff2") format("woff2");
+}*/
+
+:root {
+  --color-level: 4;
+
+  --bg-color:             #282828;
+  --text-color:           #ebdbb2;
+  --color-black:          #504945;
+  --color-red:            #cc241d;
+  --color-green:          #98971a;
+  --color-yellow:         #d79921;
+  --color-blue:           #458588;
+  --color-purple:         #b16286;
+  --color-cyan:           #3c7da2;
+  --color-white:          #a89984;
+  --color-bright-black:   #665c54;
+  --color-bright-red:     #fb4934;
+  --color-bright-green:   #b8bb26;
+  --color-bright-yellow:  #fabd2f;
+  --color-bright-blue:    #83a598;
+  --color-bright-purple:  #d3869b;
+  --color-bright-cyan:    #8ec07c;
+  --color-bright-white:   #fbf1c7;
+
+  --font-family: 'Cascadia Code', 'Fira Sans', sans-serif;
+  --monospace: "Cascadia Code", "Fira Code", Consolas, "Lucida Console", "Courier", monospace;
+  --system-font: -apple-system, BlinkMacSystemFont, "Cascadia Code", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+  --side-margin: 3.5rem;
+  --scrollbar-width: 8px;
+
+  --color-brighten: 190, 194, 218;
+  --color-darken: 0, 0, 0;
+
+  --bg-color-darker: #1d2021;
+
+  /* window variables */
+  --window-border-color: #0d0f17;
+
+  /* base variables */
+  /* --select-text-bg-color: #272b3c; */
+  --select-text-bg-color: rgba(var(--color-brighten), .1);
+  --select-text-font-color: auto;
+
+  /* base control variables */
+  --md-char-color: var(--color-white);
+  --meta-content-color: var(--color-bright-purple);
+  --blur-text-color: var(--color-black);
+  --drag-placeholder-color: rgba(var(--color-darken), .2);
+  --panel-border-color: var(--color-black);
+  --active-toggle-btn-color: var(--color-white);
+  --table-border-color: var(--color-black);
+  --primary-color: var(--color-bright-green);
+  --primary-btn-border-color: var(--color-green);
+  --primary-btn-text-color: var(--bg-color);
+  --search-select-bg-color: var(--select-text-bg-color);
+  --search-select-text-color: var(--select-text-font-color);
+  --heading-char-color: var(--color-bright-black);
+  --control-text-color: var(--text-color);
+  --control-text-hover-color: var(--text-color);
+  --window-border: 1px solid var(--window-border-color);
+  --active-file-bg-color: var(--color-black);
+  --active-file-text-color: var(--color-bright-white);
+  --active-file-border-color: var(--primary-color);
+  --focus-ring-color: var(--color-white);
+  --side-bar-bg-color: var(--bg-color-darker);
+  --item-hover-bg-color: var(--color-black);
+  --item-hover-text-color: var(--color-bright-white);
+  --side-bar-menu-active-tint: var(--primary-color);
+  --rawblock-edit-panel-bd: var(--bg-color);
+}
