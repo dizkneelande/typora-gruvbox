@@ -4,7 +4,7 @@
 #write h4,
 #write h5,
 #write h6 {
-  color: var(--color-green);
+  color: var(--color-yellow);
 }
 
 strong, strong .md-inline-math {
@@ -84,7 +84,7 @@ sup.md-footnote {
 #write ul > li:not(.task-list-item) > p:first-child:before,
 #write ol > li,
 body > ol > li {
-  color: var(--color-green);
+  color: var(--color-yellow);
 }
 
 #write ol > li > *,
@@ -94,15 +94,15 @@ body > ol > li > * {
 
 
 input[type="checkbox"]:checked:before, input[type="radio"]:checked:before {
-  color: var(--color-bright-green);
-  border-color: var(--color-green);
+  color: var(--color-bright-yellow);
+  border-color: var(--color-yellow);
 }
 
 
 summary {
-  color: var(--color-bright-green);
+  color: var(--color-bright-yellow);
 }
 
 summary:before {
-  color: var(--color-green);
+  color: var(--color-yellow);
 }
